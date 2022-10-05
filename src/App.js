@@ -1,25 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import MyTick from './components/MyTick';
 
 function App() {
-  return (
+  console.log("App"); // 이렇게 뭐 써도 되긴함.
+  return ( //표현되는 것은 div 태그 하나
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       </header>
+      <MyTick /> 
+     
     </div>
   );
 }
-
+//class 속성은 className
 export default App;

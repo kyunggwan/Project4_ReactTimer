@@ -1,0 +1,17 @@
+
+
+.myh2{
+  color: #6561FF;
+  background-color: #99ACCF;
+  font-family: 'Arial Narrow Bold';
+  margin: 0%;
+
+}
+
+.mytime{
+  font-size: 3rem;
+  font-family: 'Arial Narrow Bold';
+  color: magenta;
+  background-color: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  
+}
